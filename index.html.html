@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>刘静的个人作品集</title>
+	<link rel="stylesheet" href="style/index.css">
+</head>
+<body>
+	<div id="hea">
+		<div class="top">
+			<div class="logo">
+				<img src="images/logo.png" alt="">
+			</div>
+		</div>
+	</div>
+	<div id="nav">
+		<div class="na">
+			<ul id="navlist">
+				<li class="lis"><a href="">首页</a></li>
+				<li class="lis"><a href="">个人简介</a></li>
+				<li class="lis">
+					<a href="">工笔作品</a>
+					
+				</li>
+				<li class="lis">
+					<a href="">写意作品</a>
+					
+				</li>
+				<li class="lis"><a href="">艺术圈子</a></li>
+				<li class="lis"><a href="">兴趣爱好</a>
+					
+				</li>
+				<li class="lis"><a href="">旅行足迹</a>
+					
+				</li>
+				<li class="lis"><a href="">联系方式</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="ban">
+		<img id="pic" src="images/banner1.jpg" alt="">
+		<ul id="list">
+			<li >1</li>
+			<li >2</li>
+			<li >3</li>
+			<li >4</li>
+		</ul>
+		<script src="jquery.js"></script>
+		<script>
+			$("#list li").mouseenter(function(){
+				var index = $(this).index();
+				var src1 = "images/banner";
+				var src2 = index +1;
+				var src3 = ".jpg";
+				var src = src1 + src2 + src3;
+				$("#pic").attr("src",src)
+				$(this).css("background-color","red")
+				.siblings().css("background-color","white")
+			})
+		</script>
+
+	</div>
+	<div id="main">
+		<div class="main-top">
+			<div class="m-t-lef">
+				<div class="mtlt">
+					<div class="mtltl">
+						<h3>近期展览</h3>
+					</div>
+					<div class="mtltr">
+						<ul>
+							<li><a href="">更多》》</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="mtlb">
+					<div class="m-t-l-ul">
+						<img class="maintop-lef" src="images/maintop-lef1.jpg" alt="">
+						<ul class="maintop-lef-p">
+							<li><a href="">2016-06-01 </br></br>展览预告</a></li>
+						</ul>
+					</div>
+					<div class="m-t-l-ul">
+						<img class="maintop-lef" src="images/maintop-lef2.jpg" alt="">
+						<ul class="maintop-lef-p">
+							<li><a href="">2016-07-01 </br></br>展览预告</a></li>
+						</ul>
+					</div>
+					<div class="m-t-l-ul">
+						<img class="maintop-lef" src="images/maintop-lef1.jpg" alt="">
+						<ul class="maintop-lef-p">
+							<li><a href="">2016-08-01 </br></br>展览预告</a></li>
+						</ul>
+					</div>
+					<div class="m-t-l-ul">
+						<img class="maintop-lef" src="images/maintop-lef1.jpg" alt="">
+						<ul class="maintop-lef-p">
+							<li><a href="">2016-09-01 </br></br>展览预告</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="main-t-mid">
+				<div class="mtmt">
+					<div class="mtmtl">
+						<h3>新闻相关</h3>
+					</div>
+					<div class="mtmtr">
+						<ul>
+							<li><a href="">更多》》</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="mtmb">
+					<ul class="mtmb-ul">
+						<li><a href="">第十届荆州艺术节全国优秀美术作品展&nbsp;&nbsp;&nbsp;2016-01-01</a></li>
+						<li><a href="">“端午节全国美展”观众人数过千&nbsp;&nbsp;&nbsp;2016-01-01</a></li>
+						<li><a href="">第二届荆州省老年美术大展（双年展）优秀作品展&nbsp;&nbsp;&nbsp;2016-01-01</a></li>
+						<li><a href="">“我们的文化家园——镜头里的荆州美术馆”&nbsp;&nbsp;&nbsp;2016-01-01</a></li>
+						<li><a href="">第三届荆州书法大展于荆州美术馆开幕&nbsp;&nbsp;&nbsp;2016-01-01</a></li>
+						<li><a href="">写实绘画呈现时代真善美&nbsp;&nbsp;&nbsp;2016-01-01</a></li>
+						<li><a href="">为荆楚大地再谱瑞彩新篇&nbsp;&nbsp;&nbsp;2016-01-01</a></li>
+						<li><a href="">“澄怀味象——荆州艺术研究院某某院第三届院展”&nbsp;&nbsp;&nbsp;2016-01-01</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="main-t-rig">
+				<div class="mainright">
+					<img src="images/mainright.jpg" alt="">
+				</div>
+				<h5>"第十届荆州美术作品展"</h5>
+				<p>展览时间：2016年5月14至6月10日</br></br>
+展览地点：荆州美术馆B1、B2、B3、B4、B5、C1、C2、C3厅</br></br>
+展览内容：国、油、版、雕、水、漆、插画连环画、综合材料作品约共300余件。</p>
+			</div>
+		</div>
+		<div class="main-bot">
+			<div class="main-bot-t">
+				<div class="main-bot-t-t">
+					
+				</div>
+				<div class="main-bot-t-b">
+					<img class="main-b-t-t" src="images/mainbot-top1.jpg" alt="">
+					<img class="main-b-t-t" src="images/mainbot-top2.jpg" alt="">
+					<img class="main-b-t-t" src="images/mainbot-top3.jpg" alt="">
+					<img class="main-b-t-t" src="images/mainbot-top4.jpg" alt="">
+					<img class="main-b-t-t" src="images/mainbot-top5.jpg" alt="">
+					<img class="main-b-t-t" src="images/mainbot-top6.jpg" alt="">
+				</div>
+			</div>
+			<div class="main-bot-b">
+				<div class="mainbot-banner">
+					<img src="images/mainbot-banner.jpg" alt="">
+				</div>
+				<div class="main-b-b">
+					<img class="mainbot-b-b" src="images/mainbot-b-b1.jpg" alt="">
+					<img class="mainbot-b-b" src="images/mainbot-b-b2.jpg" alt="">
+					<img class="mainbot-b-b" src="images/mainbot-b-b3.jpg" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="footer-top">
+		<div class="footertop">
+		<div class="footer-top-lef">
+			<img class="weixin" src="images/weixin.jpg" alt="">
+			<img src="images/weixin2.jpg" alt="">
+		</div>
+		<div class="contact">
+			<div class="contact1">
+				<h2>CONTACT</h2>
+			</div>
+			<div class="contact2">
+				<img src="images/footertop1.jpg" alt="">
+				<h5>手机号码:&nbsp;17771623661</h5>
+			</div>
+			<div class="contact2">
+				<img src="images/footertop2.jpg" alt="">
+				<h5>邮箱:&nbsp;892078355@qq.com</h5>
+			</div>
+			<div class="contact2">
+				<img src="images/footertop3.jpg" alt="">
+				<h5>湖北省荆州市</h5>
+			</div>
+		</div>
+		</div>
+	</div>
+	<div id="footer-bot">
+		<h5>鄂ICP备86652617号 Copyright@2016-2026 Hubei art museum.All Right Reserved. </br>
+			技术支持 小马</h5>
+	</div>
+</body>
+</html>
